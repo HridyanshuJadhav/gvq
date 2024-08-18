@@ -37,7 +37,7 @@ a {
 /* margin: 5rem; */
 
 nav a:hover {
-  background-color: #ededed;
+  background-color: white;
 }
 
 #logo {
@@ -65,7 +65,7 @@ nav a:hover {
 #bigbox {
   display: flex;
   flex-direction: column;
-  width: 71.5rem;
+  width: 71rem;
   margin-left: 2rem;
   padding: 0rem 3rem;
   color: #ededed;
@@ -96,7 +96,7 @@ button:hover {
 
 #contact1 {
   display: inline block;
-  width: 20rem;
+  width: fit-content;
   margin-left: 55rem;
   margin-top: -25rem;
 }
@@ -125,6 +125,7 @@ i {
 }
 
 #footer {
+  width: 100%;
   font-size: 15px;
   text-align: center;
   background-color: #0a0a0a;
@@ -158,9 +159,13 @@ i {
 #footer_contactbox {
   display: flex;
   flex-direction: column;
-  margin-left: 60rem;
+  padding-left: 59rem;
   text-align: left;
   color: #2c2b30;
+}
+
+#call_1 {
+  padding-left: 0.5rem;
 }
 
 #footer1 {
@@ -176,6 +181,218 @@ i {
 }
 
 
+
+
+
+@media screen and (max-width: 1300px) {
+  #footer_contactbox {
+    padding-left: 54rem;
+  }
+
+  #bigbox {
+    width: 70rem;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  #contact1{
+    margin-left: 50rem;
+  }
+
+  #bigbox{
+    width: 66rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #footer_contactbox {
+    padding-left: 47rem;
+  }
+
+  #contact1 {
+    margin-left: 44rem;
+  }
+
+  #bigbox{
+    width: 59rem;
+  }
+
+  h1 {
+      margin-left: 24rem;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  #footer_contactbox {
+    padding-left: 37rem;
+  }
+
+  #bigbox{
+    width: 53rem;
+  }
+
+  #contact1 {
+      margin-left: 38rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  #contact1 {
+    margin-left: 34rem;
+  }
+
+  h1 {
+    margin-left: 22rem;
+  }
+
+  #bigbox{
+    width: 49rem;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  #footer_contactbox {
+    padding-left: 30rem;
+  }
+
+  input,
+  #message {
+    width: 25rem;
+  }
+
+  #contact1 {
+    margin-left: 27rem;
+  }
+
+  #bigbox{
+    width: 42rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  #footer_contactbox {
+    padding-left: 24rem;
+  }
+
+  #verticle {
+    height: 200px;
+  }
+
+  #bigbox {
+    height: auto;
+  }
+
+  #contact1 {
+    display: contents;
+  }
+
+  h1 {
+    margin-left: 16rem;
+  }
+
+  #bigbox{
+    width: rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #footer_contactbox {
+    padding-left: 17rem;
+  }
+
+  #footer {
+    font-size: 12px;
+  }
+
+  #footer1 {
+    height: 10rem;
+  }
+
+  #verticle {
+    height: 150px;
+  }
+
+  h1 {
+      margin-left: 10rem;
+  }
+
+  #bigbox{
+    width: 29rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #footer_contactbox {
+    padding-left: 13rem;
+  }
+
+  input,
+  #message {
+    width: 20rem;
+  }
+
+  h1 {
+    margin-left: 6rem;
+  }
+
+  #bigbox{
+    width: 23rem;
+  }
+}
+
+@media screen and (max-width: 503px) {
+  #footer_contactbox {
+    padding-left: 1rem;
+  }
+
+  #copyright {
+    padding-left: 3rem;
+  }
+
+  #contact {
+    font-size: 20px;
+  }
+
+  h1 {
+    margin-left: 4rem;
+  }
+
+  input,
+  #message {
+    width: 15rem;
+    font-size: 14px;
+  }
+
+  input {
+    height: 1.5rem;
+  }
+
+  #bigbox{
+    width: 17rem;
+  }
+}
+
+@media screen and (max-width: 432px) {
+  #footer {
+    font-size: 16px;
+  }
+
+  #footer1 {
+    height: 12rem;
+  }
+
+  h1 {
+    margin-left: 4rem;
+  }
+
+  #contact{
+    width: fit-content;
+  }
+
+  #bigbox{
+    width: 15rem;
+  }
+}
 
 @media screen and (Max-width:400px) {
   body {
@@ -194,7 +411,7 @@ i {
   #bigbox {
     width: 19rem;
     margin-left: 0.5rem;
-    height: 70rem;
+    /* height: 70rem; */
     padding: 0rem 1rem;
   }
 
@@ -222,11 +439,146 @@ i {
 
 
   #footer_contactbox {
-    padding-left: 6rem;
+    /* padding-left: 6rem; */
   }
 
 
   #contact1 a {
     color: white;
+  }
+}
+
+/* start coding from here */
+@media screen and (max-width: 385px) {
+  #navbar {
+    height: 4.5rem;
+  }
+
+  #call_1,
+  #email_1 a,
+  #linkedin a,
+  #instagram a,
+  #facebook a,
+  #twitter a {
+    /* color: transparent; */
+    display: flow;
+    height: 6px;
+  }
+
+  #call_icon,
+  #email_icon,
+  #linkedin_icon,
+  #instagram_icon,
+  #facebook_icon,
+  #twitter_icon {
+    /* color: #2C2B30; */
+  }
+
+  #footer_contactbox {
+    overflow: hidden;
+  }
+
+  #copyright {
+    display: flex;
+  }
+
+  #footer_linkbox {
+    padding-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #navbar {
+    height: 4rem;
+  }
+
+  nav {
+    font-size: 12px;
+  }
+
+  #bigbox {
+    width: 18rem;
+  }
+
+  #call_1,
+  #email_1 a,
+  #linkedin a,
+  #instagram a,
+  #facebook a,
+  #twitter a {
+    color: transparent;
+    display: flow;
+    height: 6px;
+  }
+
+  #call_icon,
+  #email_icon,
+  #linkedin_icon,
+  #instagram_icon,
+  #facebook_icon,
+  #twitter_icon {
+    color: #2C2B30;
+  }
+
+  #footer_linkbox {
+    width: 7.7rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  nav {
+    display: flow;
+  }
+
+  #navbar {
+    height: 4.5rem;
+  }
+
+  #gvqtext {
+    font-size: 1rem;
+  }
+
+  #copyright {
+    font-size: 12px;
+  }
+
+  #bigbox {
+    width: 15rem;
+  }
+
+  input,
+  #message {
+    width: 14rem;
+  }
+
+  form {
+    margin-left: -1rem;
+  }
+
+  h1 {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 285px) {
+  #copyright {
+    padding-left: 2rem;
+  }
+
+  #bigbox {
+    width: 13rem;
+  }
+
+  form {
+    margin-left: -1.3rem;
+  }
+
+  input,
+  #message {
+    width: 13rem;
+  }
+
+  h1 {
+    margin-left: 2rem;
   }
 }
