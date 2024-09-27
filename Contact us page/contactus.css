@@ -291,7 +291,7 @@ i {
   }
 
   #bigbox{
-    width: rem;
+    width: 35rem;
   }
 }
 
@@ -580,5 +580,9 @@ i {
 
   h1 {
     margin-left: 2rem;
+  }
+
+  #footer_linkbox{
+    width: 20rem;
   }
 }
